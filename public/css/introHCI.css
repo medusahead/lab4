@@ -1,13 +1,13 @@
-/* applies to anything of class "example-class-selector" */
-.example-class-selector {
-	margin-top: 2em;
-}
 
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
-}
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+		 background-color: #29274C;
+		 background-attachment: fixed;
+		 color: #FFFFFF;
+	 	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 	 font-weight: 300;
+	 }
 
 .jumbotron {
 	position: relative;
@@ -23,13 +23,34 @@
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
 
 .jumbotron p {
-     color: #6e6e6e;
+     color: #FFFFFF;
+}
+
+.jumbotron p.active {
+	color: #1f6ddd;
+}
+
+.music_player {
+	background-color: #D295BF;
+	padding: 20px;
+	width: 940px;
+}
+
+.project {
+	background-color: #D295BF;
+	padding: 20px;
+	width: 940px;
 }
 
 .project a {
      text-align: center;
+}
+
+ol {
+	padding: 20px;
+	list-style-type:none;
 }
